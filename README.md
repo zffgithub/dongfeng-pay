@@ -35,3 +35,9 @@ docker run -d --name myactivemq -p 61613:61613 -p 61616:61616 -p 8161:8161 sympt
 
 查看WEB管理页面：
 浏览器输入http://127.0.0.1:8161/，点击Manage ActiveMQ broker使用默认账号/密码：admin/admin进入查看
+
+http://localhost:12305/    shop   下订单页面
+http://localhost:12306/    boss   后台管理员页面
+http://localhost:12307/    merchant  商户页面
+http://localhost:12308/    agent  代理商页面
+http://localhost:12309/
