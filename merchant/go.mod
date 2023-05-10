@@ -10,4 +10,5 @@ require (
 	github.com/rs/xid v1.3.0
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/tealeg/xlsx v1.0.5
+	golang.org/x/sys v0.8.0 // indirect
 )
