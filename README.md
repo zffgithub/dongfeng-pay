@@ -13,3 +13,23 @@
 # 后话
 1：因为是模拟了三方的支付系统，所有很多功能都是实现了，但是该系统截图上面的资金都是模拟的。</br>
 2：还有一部分功能没有写上去，有需要的可以在上面进行二次开发。
+
+
+$ cd server
+$ go mod tidy
+$ go build -o server main.go (windows编译命令为 go build -o server.exe main.go )
+
+# 运行二进制
+$ ./server (windows运行命令为 server.exe)
+
+$ cd web
+$ npm install
+$ npm run dev
+
+activemq
+https://zhaobiao666.github.io/middleware/ActiveMQ/
+
+docker run -d --name myactivemq -p 61613:61616 -p 8161:8161 webcenter/activemq
+docker run -d --name myactivemq -p 61613:61616 -p 8161:8161 rmohr/activemq
+查看WEB管理页面：
+浏览器输入http://127.0.0.1:8161/，点击Manage ActiveMQ broker使用默认账号/密码：admin/admin进入查看
