@@ -29,7 +29,9 @@ $ npm run dev
 activemq
 https://zhaobiao666.github.io/middleware/ActiveMQ/
 
-docker run -d --name myactivemq -p 61613:61616 -p 8161:8161 webcenter/activemq
-docker run -d --name myactivemq -p 61613:61616 -p 8161:8161 rmohr/activemq
+docker run -d --name myactivemq -p 61613:61613 -p 61616:61616 -p 8161:8161 webcenter/activemq
+docker run -d --name myactivemq -p 61613:61613 -p 61616:61616 -p 8161:8161 rmohr/activemq
+docker run -d --name myactivemq -p 61613:61613 -p 61616:61616 -p 8161:8161 symptoma/activemq
+
 查看WEB管理页面：
 浏览器输入http://127.0.0.1:8161/，点击Manage ActiveMQ broker使用默认账号/密码：admin/admin进入查看
