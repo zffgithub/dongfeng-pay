@@ -55,7 +55,7 @@ let login = {
                             }
                         })
                 } else {
-                    alert(data.url)
+                    // alert(data.url)
                     window.location.href = data.url
                 }
             },
